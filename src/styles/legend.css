@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Ovo&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+:root {
+  --progress: 0%;
+}
+
+.legend-section {
+  display: none;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 650px;
+
+  background-color: rgb(90, 77, 58);
+  background-image: url("https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg");
+  background-size: cover;
+  padding: 20px;
+
+  transition: ease-in-out 0.15s;
+}
+
+/*
+.legend-game-button,
+.legend-home-button {
+  all: unset;
+  font-family: "Cormorant Garamond", serif;
+  width: 40px;
+  height: 20px;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: whitesmoke;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.legend-game-button::after,
+.legend-game-button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.legend-home-button::after,
+.legend-home-button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+
+.legend-game-button::before,
+.legend-home-button::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #775532;
+
+}
+
+.legend-game-button::after,
+.legend-home-button::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #19191915;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.legend-game-button:hover::before,
+.legend-home-button:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.legend-game-button:hover::after,
+.legend-home-button:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.legend-game-button:active::after,
+.legend-home-button:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+*/
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  grid-template-rows: repeat(5, 260px);
+  overflow-y: scroll;
+
+  gap: 50px;
+  padding-right: 25px;
+}
+
+.legend-grid-item {
+  background-color: rgb(237, 232, 232);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px;
+
+  display: grid;
+  grid-template-rows: 220px 1fr;
+  cursor: pointer;
+  transition: ease-in 0.15s;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.legend-grid-item:hover {
+  transform: scale(0.95);
+}
+
+.legend-flower-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.legend-flower-title {
+  font-family: "Freehand", cursive;
+  font-size: 1.3rem;
+  color: black;
+
+  margin: 0;
+  margin-top: 10px;
+}
+
+.legend-progress {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.legend-progress-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.legend-progress-heading {
+  font-family: "Cormorant Garamond", serif;
+  margin: 0;
+}
+
+.legend-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.legend-game-button,
+.legend-home-button {
+  font-family: "Cormorant Garamond", serif;
+  background-color: transparent;
+  border-width: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+.legend-game-button:hover,
+.legend-home-button:hover {
+  color: #363636;
+}
+
+.legend-progress-container {
+  width: 100%;
+  height: 14px;
+  background-color: rgba(245, 245, 245, 0.163);
+  display: flex;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.864);
+  border: 1px solid rgba(0, 0, 0, 0.405);
+}
+
+.legend-progress-bar {
+  height: 80%;
+  width: var(--progress);
+  background-color: whitesmoke;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.515);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e7e7e71c;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.864);
+  border: 1px solid rgba(0, 0, 0, 0.405);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #363636;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.flower-info-card {
+  display: none;
+  grid-template-columns: 1fr 400px;
+  grid-template-rows: min-content;
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.flower-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 500px;
+}
+
+.flower-main-heading {
+  color: #59493B;
+  font-family: "Cormorant Garamond", serif;
+  line-height: 60px;
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 0;
+  width: min-content;
+}
+
+.flower-main-sub-heading {
+  color: #59493B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.flower-main-info {
+  color: #59493B;
+  font-family: "Ovo", serif;
+  width: 430px;
+}
+
+.flower-info-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.flower-info-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.legend-return-button {
+  all: unset;
+  width: 50px;
+  height: 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.legend-return-button::after,
+.legend-return-button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.legend-return-button::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.legend-return-button::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.legend-return-button:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.legend-return-button:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.legend-return-button:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}

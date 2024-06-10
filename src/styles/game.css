@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Ovo&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+.game-section {
+    display: none;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+    max-height: 65vh;
+    align-self: flex-start;
+    margin-top: 50px;
+}
+
+.game-heading {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2.4rem;
+    color: rgb(249, 241, 241);
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    grid-template-rows: 240px;
+
+    gap: 45px;
+}
+
+.game-grid-item {
+    perspective: 800px;
+    transition: ease-in 0.15s;
+}
+
+@keyframes scaleCard {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.game-grid-item:hover{
+    transform: translateY(-10px);
+}
+
+.game-card{
+    background-color: rgb(237, 232, 232);
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    cursor: pointer;
+    transition: ease-in 0.15s;
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    animation: scaleCard 1s;
+}
+
+.game-flower-img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+}
+
+.game-flower-title {
+    font-family: "Freehand", cursive;
+    font-size: 1.1rem;
+    color: black;
+    align-self: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.game-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: flex-start;
+
+    margin-top: 30px;
+
+    gap: 10px;
+}
+
+.game-score,
+.game-level {
+    margin: 0;
+}
+
+.game-score-container {
+    font-family: "Freehand", cursive;
+    display: flex;
+    font-size: 1.1rem;
+    gap: 10px;
+}
+
+.game-level-container {
+    font-family: "Freehand", cursive;
+    display: flex;
+    font-size: 1.1rem;
+    gap: 10px;
+}
+
+.game-buttons {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+.game-legend-button,
+.game-home-button {
+    all: unset;
+    font-family: "Cormorant Garamond", serif;
+    width: 50px;
+    height: 20px;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.game-legend-button::after,
+.game-legend-button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+}
+
+.game-home-button::after,
+.game-home-button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+}
+
+
+.game-legend-button::before,
+.game-home-button::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+}
+
+.game-legend-button::after,
+.game-home-button::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+.game-legend-button:hover::before,
+.game-home-button:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+}
+
+.game-legend-button:hover::after,
+.game-home-button:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.game-legend-button:active::after,
+.game-home-button:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+}

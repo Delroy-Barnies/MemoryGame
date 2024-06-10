@@ -1,0 +1,250 @@
+[
+    [
+        {
+            "id": 1187079,
+            "title": "red Rose",
+            "genus": "genus Rosa",
+            "description": "Roses are native primarily to the temperate regions of the Northern Hemisphere. Many roses are cultivated for their beautiful flowers, which range in colour from white through various tones of yellow and pink to dark crimson and maroon, and most have a delightful fragrance, which varies according to the variety and to climatic conditions.",
+            "apperance": "Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously armed with prickles of various shapes and sizes, commonly called thorns.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/rose-plant"
+            },
+            "clicked": false
+        },
+        {
+            "id": 67857,
+            "title": "white Daisy",
+            "genus": "genus Bellis Perennis",
+            "description": "The oxeye daisy is native to Europe and Asia but has become a common wild plant in the United States and elsewhere. This perennial grows to a height of about 60 cm (2 feet) and has oblong incised leaves and long petioles (leafstalks). Its solitary flower heads are about 2.5 to 5 cm (1 to 2 inches) in diameter, and the ray flowers are white in colour.",
+            "apperance": "Distinguished by a composite flower head composed of 15 to 30 white ray flowers surrounding a centre consisting of bright yellow disk flowers, though other colour combinations are common.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/daisy"
+            },
+            "clicked": false
+        },
+        {
+            "id": 992734,
+            "title": "cherry Plum",
+            "genus": "genus Prunus Cerasifera",
+            "description": "The purple leaf plum is native to southeast Europe, Central Asia, and the Himalayas. It currently only exists in cultivation except where it has escaped gardens and naturalized. In the United States, this tree has naturalized in portions of the northeast and far west.",
+            "apperance": "The tree is upright and twiggy with a rounded to vase-shaped crown and brittle wood. Small, fragrant, pure white, 5-petaled flowers with numerous stamens bloom in the spring as the leaves emerge. The leaves are green, ovate, or elliptic with serrated margins.  Fruits, if produced, are cherry-like yellow or red and very attractive to birds.",
+            "source": {
+                "name": "nc extension gardner",
+                "link": "https://plants.ces.ncsu.edu/plants/prunus-cerasifera/"
+            },
+            "clicked": false
+        },
+        {
+            "id": 1158783,
+            "title": "hardy Garden Mum",
+            "genus": "genus Chrysanthemum",
+            "description": "Native primarily to subtropical and temperate areas of the Old World. Chrysanthemums are especially common in East Asia, where they are often depicted in art, and many are popular ornamentals.",
+            "apperance": "Most plants of the genus are perennial herbs or subshrubs. Many have simple aromatic leaves that alternate along the stem. Some have both disk and ray flowers in the heads, but others lack ray or disk flowers. Cultivated species and hybrids usually have large flower heads; those of wild species are much smaller.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/Chrysanthemum"
+            },
+            "clicked": false
+        },
+        {
+            "id": 128868,
+            "title": "foxglove",
+            "genus": "genus Digitalis",
+            "description": "Foxgloves are native to Europe, the Mediterranean region, and the Canary Islands, and several species are cultivated for their attractive flower spikes. All parts of the plants contain poisonous cardiac glycosides and are considered toxic if ingested.",
+            "apperance": "Foxgloves typically grow to a height of 45 to 150 cm (18 to 60 inches). They produce alternating, ovate to oblong leaves toward the lower part of the stem, which is capped by a tall one-sided cluster of somewhat pendulous bell-shaped flowers, each of which may be up to 6.5 cm (2.5 inches) long. The flowers may be purple, yellow, or white and are often marked with spots within.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/foxglove"
+            },
+            "clicked": false
+        }
+    ],
+    [
+        {
+            "id": 1381679,
+            "title": "common Lilac",
+            "genus": "genus Syringa",
+            "description": "Lilacs are native to eastern Europe and temperate Asia, and several are widely cultivated.",
+            "apperance": "Lilac plants are deciduous, with deep green leaves arranged oppositely along the stems. The leaves are usually simple with entire margins, though the leaves of some species are lobed or compound. The small four-petalled flowers are borne in large oval clusters. The fruit is a leathery capsule.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/lilac"
+            },
+            "clicked": false
+        },
+        {
+            "id": 55748,
+            "title": "purple Cranes  Bill",
+            "genus": "genus Geranium",
+            "description": "Native mostly to subtropical Southern Africa. Geraniums are among the most popular of bedding and greenhouse plants.",
+            "apperance": "Thick fleshy leaves varying in shape from round to lobed to deeply cut; the flowers, borne in terminal clusters, vary in colour from white through shades of pink to deep red and violet. Most of the cultivated species are hybrids.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/geranium-plant-genus-Geranium"
+            },
+            "clicked": false
+        },
+        {
+            "id": 132468,
+            "title": "peruvian Lily",
+            "genus": "genus Lilium",
+            "description": "Native to temperate areas of the Northern Hemisphere. Many lilies are prized as ornamental plants, and they have been extensively hybridized.",
+            "apperance": "The true lilies are erect perennial plants with leafy stems, scaly bulbs, usually narrow leaves, and solitary or clustered flowers. The flowers consist of six petal-like segments, which may form the shape of a trumpet, with a more or less elongated tube.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/lily"
+            },
+            "clicked": false
+        },
+        {
+            "id": 63609,
+            "title": "frangipani",
+            "genus": "genus Plumeria",
+            "description": "Native to the New World tropics. Several species, especially Plumeria rubra, are widely cultivated as ornamentals in warm climates for their attractive and fragrant flowers and are easily propagated from stem cuttings. Perfumes are also derived from or imitate the odour of the flowers.",
+            "apperance": "",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/frangipani"
+            },
+            "clicked": false
+        },
+        {
+            "id": 699963,
+            "title": "garden Dahlia",
+            "genus": "genus Dahlia",
+            "description": "Native to the higher elevations of Mexico and Central America. About six of the species in the Dahlia genus have been bred for cultivation as ornamental flowers and are popular in the floral industry and in gardens.",
+            "apperance": "Dahlias are tuberous perennials, and most have simple leaves that are segmented and toothed or cut. The compound flowers may be white, yellow, red, or purple in colour. Many varieties of ornamentals such as the common garden dahlia (D. bipinnata) have shortened ray flowers.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/Dahlia"
+            },
+            "clicked": false
+        }
+    ],
+    [
+        {
+            "id": 1169084,
+            "title": "sunflower",
+            "genus": "genus Helianthus",
+            "description": "Native primarily to North and South America, and some species are cultivated as ornamentals for their spectacular size and flower heads and for their edible seeds.",
+            "apperance": "The common sunflower is an annual herb with a rough hairy stem 1–4.5 metres (3–15 feet) high and broad, coarsely toothed, rough leaves 7.5–30 cm (3–12 inches) long arranged in spirals. The attractive heads of flowers are 7.5–15 cm wide in wild ...",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/sunflower-plant"
+            },
+            "clicked": false
+        },
+        {
+            "id": 2480075,
+            "title": "didier's Tulip",
+            "genus": "genus Tulipa gesneriana",
+            "description": "Tulipa gesneriana, the Didier's tulip or garden tulip, is a species of plant in the lily family, cultivated as an ornamental in many countries because of its large, showy flowers. This is a complex hybridized neo-species, and can also be called Tulipa × gesneriana. Most of the cultivars of tulip are derived from Tulipa gesneriana. It has become naturalised in parts of central and southern Europe and scattered locations in North America.",
+            "apperance": "This tall, late-blooming species has a single blooming flower and linear or broadly lanceolate leaves.",
+            "source": {
+                "name": "wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Tulipa_gesneriana"
+            },
+            "clicked": false
+        },
+        {
+            "id": 136255,
+            "title": "carnation",
+            "genus": "genus Dianthus caryophyllus",
+            "description": "Native to the Mediterranean area. It is widely cultivated for its fringe-petaled flowers, which often have a spicy fragrance, and is used extensively in the floral industry.",
+            "apperance": "There are two general groups, the border, or garden.Border carnations include a range of varieties and hybrids, 30 to 75 cm (1 to 2.5 feet) tall; the flowers, in a wide range of colours, are usually less than 5 cm (2 inches) in diameter and are borne on wiry, stiffly erect stems. The bluish green leaves are narrow, sheathing the stems; there are swellings at the junction of leaf and stem.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/carnation"
+            },
+            "clicked": false
+        },
+        {
+            "id": 133181,
+            "title": "wind Flower",
+            "genus": "genus Anemone",
+            "description": "The English version of the Greek-derived anemone, refers to the fact that the flowers appear to be blown open by the wind. According to a Greek myth, as Adonis died, red anemones sprang up from his blood.",
+            "apperance": "Many colourful varieties of the tuberous poppylike anemone, are grown for the garden and florist’s trade.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/anemone"
+            },
+            "clicked": false
+        },
+        {
+            "id": 46974,
+            "title": "grape Hyacinth",
+            "genus": "genus Muscari",
+            "description": "Native to the Mediterranean region. Grape hyacinths often are planted as spring-flowering garden ornamentals. Some cultivated species readily naturalize and can become weedy.",
+            "apperance": "Most species of the genus have dense clusters of blue, white, yellow, or pink urn-shaped flowers that are borne at the tip of a leafless flower stalk. The flowers of some species have a musky odour. The leaves are long and narrow and emerge from an underground bulb. The fruit is a capsule.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/grape-hyacinth"
+            },
+            "clicked": false
+        }
+    ],
+    [
+        {
+            "id": 355663,
+            "title": "spring Crocus",
+            "genus": "genus Crocus",
+            "description": "Native to the Alps, southern Europe, and the Mediterranean area and are cultivated in temperate areas worldwide.",
+            "apperance": "Taxonomy Crocuses emerge from an underground corm and die back shortly after flowering. The corm is covered in a dry sheath, known as a tunic, and many species have contractile roots that can pull the corm deeper into the soil.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/Crocus"
+            },
+            "clicked": false
+        },
+        {
+            "id": 414057,
+            "title": "hawaiian Hibiscus",
+            "genus": "genus Hibiscus",
+            "description": "Native to warm temperate and tropical regions. Several are cultivated as ornamentals for their showy flowers, and a number are useful as fibre plants.",
+            "apperance": "The leaves are often lobed and may be smooth or covered in trichomes (plant hairs). The flowers can be borne singly or in clusters, and the flowers of many species last only a single day.",
+            "source": {
+                "name": "britannica",
+                "link": "https://www.britannica.com/plant/hibiscus"
+            },
+            "clicked": false
+        },
+        {
+            "id": 531774,
+            "title": "capeRain Daisy",
+            "genus": "genus Dimorphotheca",
+            "description": "Native to Southern Africa. Dimorphotheca is known for its daisy-like flowers. These plants brighten gardens with their vibrant colors.",
+            "apperance": "They carry daisy-like flowers of many colors. These bloom in the summer (or in the late winter/spring in hot climates when grown as perennials).",
+            "source": {
+                "name": "gardenersHQ",
+                "link": "https://www.gardenershq.com/Dimorphotheca-African-daisy.php"
+            },
+            "clicked": false
+        },
+        {
+            "id": 1021925,
+            "title": "pygmy Rose",
+            "genus": "genus Rosa",
+            "description": "Native to the forests of the Sierra Nevada and surrounding mountains and foothills. It may also occur in Oregon.",
+            "apperance": "Small rhizomatous shrub growing 10 to 80 centimeters tall. The brown stem is covered in paired prickles. The leaves are each made up of a few hairy, glandular leaflets which are oval in shape and toothed. The leaflet at the end of the leaf is up to 3 centimeters long and has a flat tip.",
+            "source": {
+                "name": "wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Rosa_bridgesii"
+            },
+            "clicked": false
+        },
+        {
+            "id": 1646275,
+            "title": "thunbergia Coccinea",
+            "genus": "genus Acanthaceae",
+            "description": "Native to the Indian Subcontinent to China (Yunnan) and Indo-China. This liana primarily grows in wet tropical biomes1.",
+            "apperance": "It’s a striking plant with vibrant red flowers that add a splash of color to gardens and landscapes.",
+            "source": {
+                "name": "powoScience",
+                "link": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60460291-2"
+            },
+            "clicked": false
+        }
+    ]
+]
