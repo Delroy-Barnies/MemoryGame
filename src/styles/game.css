@@ -45,7 +45,10 @@
 }
 
 .game-grid-item:hover{
-    transform: translateY(-10px);
+    transform: scale(1.08);
+}
+.game-grid-item:active{
+    transform: scale(1);
 }
 
 .game-card{
