@@ -7,7 +7,7 @@ import legend from './legend.json';
 export default function Legend(props) {
     const [flower, setFlower] = useState(legend[0]);
     const client = createClient('p5xyN9jXP0GYqtDH3Skm3nLWaPFcr2FfOwRIOd5cwgnQbpadWFVzVnE1');
-
+    
     const root = document.querySelector(":root");
     root.style.setProperty("--progress", props.progress);
 
