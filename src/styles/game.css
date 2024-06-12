@@ -8,9 +8,20 @@
 
     justify-content: space-between;
     align-items: center;
-    max-height: 65vh;
     align-self: flex-start;
     margin-top: 50px;
+    width: 1280px;
+}
+
+@media (max-width:1280px) {
+
+    main{
+        margin-bottom: 20px;
+    }
+
+    .game-section{
+        width: 90vw;
+    }
 }
 
 .game-heading {
@@ -21,7 +32,9 @@
 
 .game-grid {
     display: grid;
-    grid-template-columns: repeat(5, 220px);
+    justify-content: center;
+    width: max(350px, 100%);
+    grid-template-columns: repeat(auto-fill, 220px);
     grid-template-rows: 240px;
 
     gap: 45px;
@@ -44,14 +57,15 @@
     }
 }
 
-.game-grid-item:hover{
-    transform: scale(1.08);
-}
-.game-grid-item:active{
-    transform: scale(1);
+.game-grid-item:hover {
+    transform: scale(1.05);
 }
 
-.game-card{
+.game-grid-item:active {
+    transform: scale(1.02);
+}
+
+.game-card {
     background-color: rgb(237, 232, 232);
     overflow: hidden;
     display: grid;

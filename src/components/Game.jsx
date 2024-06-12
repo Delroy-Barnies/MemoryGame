@@ -27,7 +27,7 @@ export default function Game() {
 
     function changeBackground(num) {
         client.photos.show({ id: backgrounds[num].id }).then(photo => {
-            document.querySelector("body").style.backgroundImage = `url('${photo.src.large2x}')`;
+            document.querySelector(":root").style.backgroundImage = `url('${photo.src.large2x}')`;
         });
     }
 

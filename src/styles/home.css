@@ -12,24 +12,12 @@
     border-radius: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    transform: scale(0.9);
 }
 
 :root {
     --color: white;
-}
-
-.home-red-flower,
-.home-pink-flower {
-    width: 300px;
-}
-
-.home-red-flower {
-    rotate: 37deg;
-}
-
-.home-pink-flower {
-    rotate: -22deg;
-    margin-left: 40px;
 }
 
 .home-content {

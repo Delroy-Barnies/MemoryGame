@@ -9,7 +9,7 @@ export default function Home() {
   const client = createClient('p5xyN9jXP0GYqtDH3Skm3nLWaPFcr2FfOwRIOd5cwgnQbpadWFVzVnE1');
 
   client.photos.show({ id: backgrounds[0].id }).then(photo => {
-    document.querySelector("body").style.backgroundImage = `url('${photo.src.large2x}')`;
+    document.querySelector(":root").style.backgroundImage = `url('${photo.src.large2x}')`;
   });
 
   function handleLegendButtonClick() {
