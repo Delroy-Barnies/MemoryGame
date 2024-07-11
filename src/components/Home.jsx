@@ -1,6 +1,7 @@
 import '../styles/home.css'
 import Game from './Game';
 import { createClient } from 'pexels'
+import { useEffect } from 'react';
 import backgrounds from './backgrounds.json';
 import Clock from './Clock';
 
@@ -8,9 +9,11 @@ export default function Home() {
   const date = new Date();
   const client = createClient('p5xyN9jXP0GYqtDH3Skm3nLWaPFcr2FfOwRIOd5cwgnQbpadWFVzVnE1');
 
-  client.photos.show({ id: backgrounds[0].id }).then(photo => {
-    document.querySelector(":root").style.backgroundImage = `url('${photo.src.large2x}')`;
-  });
+  useEffect(() => {
+    client.photos.show({ id: backgrounds[0].id }).then(photo => {
+      document.querySelector(":root").style.backgroundImage = `url('${photo.src.large2x}')`;
+    });
+  }, []);
 
   function handleLegendButtonClick() {
     document.querySelector(".legend-section").style.display = "flex";

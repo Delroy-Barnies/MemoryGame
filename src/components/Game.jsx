@@ -18,7 +18,7 @@ export default function Game() {
     function Flower(props) {
         const [img, setImg] = useState();
         client.photos.show({ id: props.id }).then(photo => {
-            props.size === "original" ? setImg(photo.src.original) : setImg(photo.src.large);
+            setImg(photo.src.large);
         });
         return (
             <img id={props.id} src={img} className={props.className} />

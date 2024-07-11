@@ -29,7 +29,7 @@ export default function Legend(props) {
         legend.forEach(flower => {
             if (flower.id.toString() === e.target.id) {
                 client.photos.show({ id: flower.id }).then(photo => {
-                    document.querySelector(".flower-info-img-container").style.backgroundImage = `url('${photo.src.original}')`;
+                    document.querySelector(".flower-info-img-container").style.backgroundImage = `url('${photo.src.large}')`;
                 });
                 setFlower(flower)
             };
