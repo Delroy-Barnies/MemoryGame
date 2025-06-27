@@ -1,8 +1,28 @@
-# React + Vite
+# MemoryGame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An educational javascript memory game where you try to remember which flowers you've clicked. Learn about flowers and fill out your legend as you progress!
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+Check it out: [memory-game-lilac-beta.vercel.app](https://memory-game-lilac-beta.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Features
+
+- Click flowers to reveal and match them  
+- Track which flowers you've clicked and complete your legend  
+- Learn more about each flower via Britannica links  
+- Goal: uncover all flowers and complete your legend
+- 
+## 🧩 Tech Stack
+
+- Plain **JavaScript** (ES6+)
+- **React.js** (frontend)
+- **HTML5** & **CSS3** for layout and styling  
+- deployed via **Vercel**
+  
+## Contributors
+
+- Delroy DL Barnies <Delroybarnies99@gmail.com>
+
+## License and copyright
+
+© Delroy DL Barnies
